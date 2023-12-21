@@ -150,7 +150,7 @@ section.about .section-about .about-informasi p {
 
 .product {
   margin-top: 40px;
-  padding: 40px 6%;
+  padding: 40px 6% 100px;
   background-color: #f1f1f1;
 }
 .product .deskripsi {
@@ -178,6 +178,47 @@ section.about .section-about .about-informasi p {
   color: #fff;
   text-transform: capitalize;
   border-radius: 5px;
+}
+
+footer {
+  padding: 20px 6%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #546151;
+  box-shadow: 0px -1px 20px #546151;
+}
+
+footer img {
+  width: 120px;
+}
+
+footer .ul-footer {
+  padding-left: 0;
+}
+
+footer .ul-footer li {
+  display: inline-block;
+  margin: 0 20px;
+}
+
+footer .ul-footer li a {
+  font-size: 18px;
+  text-decoration: none;
+  color: #fff;
+}
+
+footer .ul-footer li a:hover {
+  color: var(--color);
+}
+
+footer .ul-footer li .bi {
+  font-size: 25px;
+  color: #fff;
+}
+
+footer .ul-footer li .bi:hover {
+  color: var(--color);
 }
 
 /* responsive */
@@ -255,5 +296,26 @@ section.about .section-about .about-informasi p {
 
   .productss .card {
     width: 20rem !important;
+  }
+
+  footer {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  footer .ul-footer {
+    margin: 10px 0px;
+  }
+
+  footer .ul-footer li {
+    margin: 0 25px;
+  }
+
+  footer ul li a {
+    font-size: 14px;
+  }
+
+  footer ul li .bi {
+    font-size: 20px;
   }
 }
