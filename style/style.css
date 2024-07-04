@@ -33,6 +33,9 @@ html body {
 .navbar {
   background-color: rgb(255, 255, 255);
   border-bottom: 1px solid black;
+  position: fixed;
+  width: 100%;
+  z-index: 100;
 }
 
 .navbar-brand img {
@@ -83,7 +86,8 @@ html body {
   background: linear-gradient(to bottom, #f9efdb, #ebd9b4);
   padding: 90px 6.5%;
   width: 100%;
-  height: 80%;
+  align-items: center;
+  height: 100vh;
   justify-content: space-between;
 }
 
@@ -95,6 +99,7 @@ html body {
 .main h2 {
   font-size: 40px;
   font-weight: bold;
+  margin-top: 50px;
 }
 
 .main h1 {
@@ -124,7 +129,7 @@ html body {
 }
 
 .main .gambar img {
-  width: 100%;
+  width: 0%;
 }
 
 section.about {
